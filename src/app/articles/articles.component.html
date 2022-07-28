@@ -1,0 +1,11 @@
+<ul class="news__list">
+  <li *ngFor="let article of news" class="articles">
+    <br />
+    <h3>{{ article.header }}</h3>
+    <br />
+    {{ article.content }}<br />
+    <button [ngClass]="article.buttonColor" ng-click="addBorderColor()">
+      Set {{ article.buttonColor }}
+    </button>
+  </li>
+</ul>

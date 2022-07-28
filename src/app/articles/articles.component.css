@@ -1,0 +1,41 @@
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 800px;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  background: #f90;
+  border: solid 1px #000;
+  height: 350px;
+  margin: 10px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+}
+button.Blue {
+  background-color: blue;
+  color: white;
+}
+button.Black {
+  background-color: black;
+  color: white;
+}
+button.Red {
+  background-color: red;
+  color: white;
+}
+button.Green {
+  background-color: green;
+  color: white;
+}
